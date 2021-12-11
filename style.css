@@ -1,10 +1,20 @@
 :root {
-  --darkViolet: hsl(256, 26%, 20%);
+  --darkViolet: #2c2640;
   --grayishBlue: hsl(216, 30%, 68%);
   --veryDarkViolet: hsl(270, 9%, 17%);
   --darkGrayishViolet: hsl(273, 4%, 51%);
   --veryLightGray: hsl(0, 0%, 98%);
 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 h1,
@@ -33,4 +43,28 @@ p {
   font-family: 'Roboto',
     sans-serif;
   font-size: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  text-transform: uppercase;
+}
+
+/* Header  */
+/* NAV  */
+.nav {
+  background-color: white;
+}
+
+.nav-link {
+  color: black;
+}
+
+header {
+  background-color: var(--darkViolet);
+  color: white;
+  width: 100%;
 }
